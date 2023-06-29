@@ -200,6 +200,7 @@ const NavbarSignUp = () => {
                   About
                 </Text>
               </Link>
+              <Link to={"/login"}>
               <Button
                 _hover={{
                   color: "#ff6733",
@@ -210,6 +211,7 @@ const NavbarSignUp = () => {
               >
                 Log In
               </Button>
+              </Link>
             </VStack>
           </DrawerContent>
         </Drawer>
